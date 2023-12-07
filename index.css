@@ -32,16 +32,26 @@ section {
 article h1 {
   color: darkred;
   font-family: 'Spirax', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
+  text-align: center;
 }
 
 article p {
   background-color: rgb(139, 0, 0, 0.8);
-  color: darkred;
   margin-block: 20px;
   padding: 10px 20px;
 }
 
+article {
+  color: white;
+  font-family: 'Poiret One', sans-serif;
+}
+
 #hot {
   background-image: url(hot.jpg);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
