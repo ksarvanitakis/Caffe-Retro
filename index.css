@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: rgb(139, 0, 0, 0.8);
   display: flex;
@@ -40,6 +44,7 @@ article p {
   background-color: rgb(139, 0, 0, 0.7);
   margin-block: 20px;
   padding: 10px 20px;
+  position: relative;
   text-align: center;
 }
 
@@ -52,6 +57,14 @@ article {
   background-image: url(hot.jpg);
 }
 
+#juicy {
+  background-image: url(juicy.jpg);
+}
+
+#cosy {
+  background-image: url(cosy.jpg);
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -59,5 +72,18 @@ article {
 
 .box {
   background-color: rgb(0, 0, 0, 0.7);
-  padding: 15px 25px;
+  padding: 10px 40px;
+}
+
+.p1 {
+  right: 100px;
+}
+
+.p2 {
+  left: 100px;
+}
+
+#hot,
+#juicy {
+  border-bottom:  solid rgb(139, 0, 0, 0.7);
 }
